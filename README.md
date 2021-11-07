@@ -1,5 +1,13 @@
 # Udemy-clone
 This is a short udemy project react  with the help of react js.you can modify this app.....
+maily you have required
+  .react 
+     .react-router-dom
+     .bootstrap
+     .font awesome
+     .google fonts icon
+     .google fonts
+ here is the some images of my project........
 ![Screenshot (47)](https://user-images.githubusercontent.com/85377449/140648148-7a9038e2-fdb8-48f9-9fbc-754cfe03ab5a.png)
 ![Screenshot (29)](https://user-images.githubusercontent.com/85377449/140648154-a8221f8c-20d5-46f3-bc6a-b0a930042c5d.png)
 ![Screenshot (31)](https://user-images.githubusercontent.com/85377449/140648161-c47f8dc9-2e56-4b4a-af91-0a05ac23cd73.png)
