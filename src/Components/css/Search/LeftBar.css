@@ -1,0 +1,52 @@
+
+  .leftbar{
+     width: 100%;
+      padding: 2.4rem 1.6rem;
+      position: relative;
+    }
+    
+    .leftbar .maker{
+    border-top: 0.1rem solid var(--halkaDark);
+    padding: 1.6rem 0;
+
+    position: relative;
+    }
+    .leftbar .maker .pro{
+        display: flex;
+        margin-bottom: 1.6rem;
+        justify-content: space-between;
+       
+    }
+    .leftbar .maker .pro h3{
+        font-size: 1.92rem;
+        font-family: var(--Fonts);
+    }
+    .leftbar .maker .pro span i{
+        cursor: pointer;
+
+    }
+    .leftbar .maker .d{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .leftbar .maker .d .jcheck input{
+        transform: scale(1);
+        border: none;
+        outline: 0.2rem solid #111;
+    }
+    .leftbar .maker .d .jcheck input[type="radio"]{
+        outline: none;
+        transform: scale(1.1);
+    }
+    .leftbar .maker .d .jcheck .m09{
+        font-family: var(--Fonts);
+        margin: 0 0.96rem;
+        font-size: 1.6rem;
+
+    }
+    .leftbar .maker .d .jcheck .h565{
+        font-family: var(--Fonts);
+        font-size: 1.44rem;
+
+    }

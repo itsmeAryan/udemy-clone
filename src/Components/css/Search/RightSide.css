@@ -1,0 +1,164 @@
+
+.Render{
+     
+  position: relative;
+    }
+    .Render .rempost{
+      display: flex;
+      justify-content: flex-start;
+      border-bottom: 0.1rem solid #111;cursor: pointer;
+      padding-bottom: 1.6rem;
+      margin-bottom: 1.6rem;
+      z-index: 11;
+    }
+    .Render .rempost .photos img{
+  width: 100%;
+    }
+    .Render .rempost .classicInfo{
+  flex: 0.98;
+  display: flex;
+      justify-content: flex-start;
+  margin-left: 0.96rem;
+  
+      flex-direction: column;
+    }
+    .Render .rempost.classicInfo .h3 h3{
+  font-family: var(--Fonts);
+  font-size: 1.6rem;
+  margin: 0;
+    }
+    .Render .rempost .classicInfo .sdp p{
+  
+  font-size: 1.51rem;
+  margin: 0;
+    }
+    .Render .rempost .classicInfo .Imbro{
+      font-family: var(--Fonts);
+  
+    }
+    .Render .rempost .classicInfo .Rati{
+      display: flex;
+      justify-content: flex-start;
+    }
+    .Render .rempost .classicInfo .enable span{
+      font-size: 2.3rem;
+      display: none;
+      font-family: var(--Fonts);
+    }
+    .Render .rempost .classicInfo .Rati .rating-nmber{
+      font-family: var(--Fonts);
+  color: #e59819;
+  font-size: 1.76rem;
+    }
+    .Render .rempost .classicInfo .Rati .strs{
+  font-size: 1.44rem;
+  margin: 0 0.96rem;
+  color: #e59819;
+  
+    }
+    .Render .rempost .dollars{
+      display: flex;
+      flex: 0.09;
+      font-size: 1.92rem;
+      justify-content: flex-start;
+      align-items: center;
+      font-family: var(--Fonts);
+  
+      flex-direction: column;
+    }
+  .Render .rempost .classicInfo  .hot1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Render .rempost  .classicInfo  .hot1 .ioj{
+  padding: 0.32rem;
+  background-color: #eceb98;
+  }
+
+  /* fake one side */
+  .Render .RemoID{
+    width: 35%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.765);
+    padding: 1.6rem;
+    z-index: 111;
+    position: absolute;
+    top: -100%;
+    display: none;
+    left: 35%;
+    background-color: #ffff;
+    padding-bottom: 0.96rem;
+  }
+  .Render .RemoID h3{
+    font-family: var(--Fonts);
+    font-weight: bold;
+    font-size: 2.4rem;
+  }
+  .Render .RemoID  .love{
+    display: flex;
+    justify-content: flex-start;
+  }
+   .Render .RemoID  .love .sastriji i{
+    font-size: 1.6rem ;
+  }
+  .Render .RemoID  .love .aajkal{
+    font-size: 1.6rem ;
+    font-family: var(--Fonts);
+    font-weight: bold;
+    margin-left: 1.6rem;
+  }
+ /* .RemoID .rambo i{
+    /* font-size: 5rem; */
+  /* } */ */
+  #jack{
+    font-size: 4.32rem;
+    position: absolute;
+    bottom: -13%;
+    z-index: 111;
+    left: 50%;
+
+    color: rgb(189, 184, 184);
+
+  }
+  .Render:hover .RemoID{
+    display: block;
+  }
+  .Render .rempost.classicInfo .h3 h3{
+    font-family: var(--Fonts);
+    font-size: 1.6rem!important;
+    margin: 0;
+      }
+      @media (max-width:580px) {
+        .Render .rempost .dollars{
+          display: none;
+        }
+        .Render .rempost .classicInfo .enable span{
+          display: inline;
+        }
+        .Render .rempost .classicInfo{
+          flex: 1;
+        }
+        .Render .RemoID{
+          width: 50%;
+        }
+      }
+      @media (max-width:450px) {
+      
+        .Render .rempost .classicInfo .enable span{
+          display: inline;
+        }
+        .Render .rempost .classicInfo .sdp{
+          display: none;
+        }
+        .Render .rempost .photos {
+          width: 50%;
+          object-fit: cover;
+        }
+        .Render .RemoID{
+          width: 70%;
+        }
+        .Render .rempost .classicInfo{
+          flex: 100%;
+          margin-left: 0;
+        }
+      }

@@ -1,0 +1,103 @@
+
+  .signup{
+      margin: 1rem auto;
+      width: 37rem;
+      height: 30rem;
+  }
+  .signup .subh{
+      padding: 1.6rem;
+      border-bottom: 1.6px solid grey;
+      font-size: 1.76rem;
+      font-weight: bold;
+      font-family: var(--Fonts);
+  }
+  .signup .signo{
+      margin: 0.8rem;
+      padding: 0.32rem;
+  }
+  .signup .signo .name{
+      border: 0.1rem solid #111;
+      padding: 0.8rem;
+      margin-top: 0.8rem;
+      align-items: center;
+      display: flex;
+      justify-content: flex-start;
+  }
+  .signup .signo .name input{
+      flex: 1;
+      height: 3.4rem;
+      border: none;
+      outline: none;
+      padding: 0.64rem;
+   font-size: 2.24rem;
+      
+  }
+  .signup .signo .name i{
+      font-size: 1.92rem;
+  }
+  .signup .signo .name .tap{
+      cursor: pointer;
+  }
+  .signup .signo .toggle .secret-div{
+      height: 1rem;
+      display: flex;
+      margin-left: 0.8rem;
+      margin-top: 0.64rem;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .signup .signo .toggle .secret-div .one{
+      width: 2.3rem;
+margin-left: 0.48rem;
+      margin-right: 1.6rem;
+      border-radius: 1rem;
+      height: 0.8rem;background-color: #6a6f73;
+  }
+  .signup .signo .toggle{
+      display: flex;
+      text-align: center;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  /* .signup .signo .toggle .secret-div #two{
+      background-color: #111;
+  } */
+  .signup .props{
+      padding:0 1.12rem;
+      display: flex;
+      justify-content: flex-start;
+  }
+  .signup .props input{margin-top: 0.8rem;
+      transform: scale(1.4);
+      margin-right: 0.8rem;
+  }
+  .signup .props p{
+      font-size: 1.6rem;
+  }
+  .signup .oxy{
+    padding:0 1.12rem;
+
+  }
+  .signup .oxy input{
+      width: 100%;
+      outline: none;
+      padding: 0.96rem 1.6rem;
+      background-color: var(--addcart);
+      color: #fff;
+      font-size: 1.92rem;
+      border: none;
+  }
+  .signup .oxy input:hover{
+      opacity: 0.94;
+  }
+
+  .signup .make{
+      margin-top: 0.8rem;
+      border-bottom: 0.1rem solid #111;
+      padding:1.6rem 1.12rem;
+font-size: 1.12em;
+  }
+  .signup .me{
+      margin-top: 1.12em;
+      text-align: center;
+  }

@@ -1,0 +1,526 @@
+
+  .Descriptions{
+    width: 70rem;
+    margin: 2.4rem 12rem;
+  }
+  .Descriptions h3{
+      font-family: var(--Fonts);
+      font-weight: bold;
+      font-size: 2.544rem;
+  }
+  .Descriptions .desc-container{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+  }
+  .Descriptions .desc-container .disco{
+      margin: 0.8rem;
+  }
+  .Descriptions .desc-container  .fir-ln{
+      margin-bottom: 0.48rem;
+  }
+  .Descriptions .desc-container  .clasic-dan {
+      margin-top: 0.48rem;
+  }
+  .Descriptions .desc-container .acts-sl .kl{
+margin-bottom: 0.483rem;
+  }
+  .Descriptions .desc-container .acts-sl .ultra{
+padding: 0.32rem 2.08rem;
+font-size: 1.54rem;
+font-family: var(--Fonts);
+opacity: 0.8;
+  }
+  .Descriptions .desc-container .acts-sl  .enroll{
+      font-family: var(--Fonts);
+      font-weight: bold;
+      margin-top: 0.96rem;
+      font-size: 1.761rem;
+  }
+  .paso{
+      margin-top: 2.88rem;
+      padding: 0.96rem;
+  }
+    .paso h3{
+font-family: var(--Fonts);
+font-size: 2.4rem;
+  }
+  .paso .alesia{
+      margin-left: 0.8rem;
+      font-size: 1.456rem;
+  }
+ .know {
+      margin-top: 00.48rem;
+      font-family: var(--Fonts);
+      width: 14%;
+      font-size: 1.76rem;
+      cursor: pointer;
+      color: var(--link);
+
+  }
+  .know span i{
+      color: var(--link);
+      transition: all 0.3s linear;
+  }
+   .know span .go,
+  .know span #go{
+transform: rotate(180deg);
+  }
+  .Descriptions .desc-container #show{
+      display: none;
+  }
+  .Descriptions .desc-container #dot{
+      opacity: 0.2;
+  }
+
+
+  /* reviews */
+  .reviwes-veta{
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.765);
+    width: 70rem;
+    margin: 3.2rem 12rem;
+    padding:1.6rem 2.24rem;
+  }
+  .reviwes-veta h3{
+      font-family: var(--Fonts);
+      font-weight: bold;
+      font-size: 2.4rem;
+  }
+  .reviwes-veta  .arya .frame{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin-bottom: 1.6rem;
+  }
+  .reviwes-veta  .arya .frame .avtars img{
+      width: 7rem;
+      height: 7rem;
+      transform: rotate(1deg);
+      border-radius: 50%;
+  }
+  .reviwes-veta  .arya .frame .avtarInfo{
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 1.6rem;
+
+      align-items: center;flex-direction: column;
+  }
+  .reviwes-veta  .arya .frame .avtarInfo #hipo{
+      font-family: var(--Fonts);
+  }
+  .reviwes-veta  .arya .fale{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .reviwes-veta  .arya .fale .fakeSatr{
+      font-size: 1.28rem;
+      color: var(--star);
+      margin-right:1.6rem ;
+  }
+  .reviwes-veta  .arya .inbox{
+      margin: 0.8rem;
+      margin-top: 00.32rem;
+      font-size: 1.54rem;
+
+  }
+  .reviwes-veta  .arya .change span{
+      font-family: var(--Fonts);
+      margin-top: 0;
+      margin-bottom: 0.96rem;
+
+  }
+  .reviwes-veta  .arya .liek0{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+  }
+  .reviwes-veta  .arya .liek0 .likeAction{
+    display: flex;
+
+  }
+  .reviwes-veta  .arya .liek0 .likeAction .left-like{
+width: 4rem;
+height: 4rem;
+text-align: center;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0.48rem;
+border: 0.1rem solid #111;
+border-radius: 50%;
+  }
+
+  .reviwes-veta  .arya .liek0 .likeAction .left-like:hover{
+      background-color: var(--category);
+  }
+
+
+  /* similar copurses */
+  .similar-courses{
+    width: 70rem;
+    margin: 2.4rem 12rem;
+  }
+  .similar-courses h3{
+    font-family: var(--Fonts);
+    font-weight: bold;
+    margin: 0;
+  }
+  .similar-courses .kave{
+    margin: 0;
+
+  }
+  .similar-courses .kave .slug{
+    color: var(--total);
+    font-weight: bold;
+  }
+  
+  .similar-courses .ourCourses {
+    margin-top: 0.8rem;
+  }
+  .similar-courses .ourCourses .contain-itemo0{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme{
+display: flex;
+justify-content: flex-start;
+border-bottom: 0.1rem solid var(--lighDark);
+margin-bottom: 0.96rem;
+
+align-items: flex-start;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .itsme img{
+width: 6.4rem;
+height: 6.4rem;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .datas-manager .head-manager a{
+text-decoration: none;
+color: #111;
+font-family: var(--Fonts);
+font-weight: bold;
+font-size: 1.761rem;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .datas-manager {
+    flex: 0.6;
+    margin-left: 0.96rem;
+
+  }
+  #jex{
+    color: var(--total);
+    font-family: var(--Fonts);
+font-weight: bold;
+
+
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0{
+    flex: 0.52;
+    display: flex;
+    justify-content: space-between;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0  .stairs{
+color: var(--star);
+display: flex;
+justify-content: flex-start;
+align-items: center;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0  .stairs span{
+    margin: 0 0.32rem;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0 .use-mo{
+    display: flex;
+    margin:0 0.64rem;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0 .use-mo .mr{
+margin-right: 0.48rem;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0 .traffic78 {
+    font-family: var(--Fonts);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.92rem;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0 .semual{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.24rem;
+    border: 0.1rem solid #111;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0 .semual:hover{
+    background-color: var(--category);
+  }
+  .similar-courses .ourCourses .contain-itemo0 .meta-megha{
+border: 0.1rem solid var(--lighDark);
+padding: 0.8rem;
+text-align: center;
+font-family: var(--Fonts);
+font-weight: bold;
+cursor: pointer;
+font-size: 1.92rem;
+box-shadow: 0 0 0.3rem rgba(0,0,0,0.765);
+
+  }
+  .similar-courses .ourCourses .contain-itemo0 .meta-megha:hover{
+    background-color: var(--category);
+  }
+  #simi{
+    display: none;
+  }
+
+  /* together */
+  .Together{
+    width: 70rem;
+    margin: 2.88rem 12rem;
+    padding: 2.4rem 2.4rem;
+    border: 0.1rem solid var(--halkaDark);
+  }
+  .Together .ToExo h3{
+    font-family: var(--Fonts);
+    font-weight: bold;
+    font-size: 2.4rem
+
+  }
+  .Together .ToExo .Addnow{
+    position: relative;
+
+  }
+  .Together .ToExo .Addnow .Addthis{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    margin-bottom: 1.127rem;
+  }
+  .Together .ToExo .Addnow .fam{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: var(--category);
+    font-size: 6.4rem;
+  }
+  .Together .ToExo .Addnow .Addthis .u0k img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+  .Together .ToExo .Addnow .Addthis .u0k{
+    border: 0.1rem solid var(--halkaDark);
+    cursor: pointer;
+  }
+  .Together .ToExo .Addnow .Addthis .sld {
+    margin-left: 1.6rem;
+  }
+  .Together .ToExo .Addnow .Addthis .sld .ds a{
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+    font-size: 1.92rem;
+    font-family: var(--Fonts);
+
+  }
+  .Together .ToExo .Addnow .Addthis .sld .clim0 .stairs .solo{
+color: var(--star);
+font-weight: bold;
+font-family: var(--Fonts);
+font-size: 1.76rem;
+  }
+  .Together .ToExo .Addnow .Addthis .sld .clim0 .stairs .h7hd{
+margin: 1.127rem;
+font-size: 1.456rem;
+color: var(--star);
+
+  }
+
+  .Together .ToExo .Addnow .Addthis  .fdsf {
+    font-weight: bold;
+    font-family: var(--Fonts);
+    font-size: 2.08rem;
+  }
+
+  .Together .ToExo .ClapTag{
+border: 0.1rem solid var(--halkaDark);
+display: flex;
+font-weight: bold;
+font-family: var(--Fonts);
+justify-content: flex-start;
+align-items: center;
+padding: 1.6rem;
+  }
+  .Together .ToExo .ClapTag i{
+font-size: 1.92rem;
+margin-right: 1.6rem;
+  }
+  .Together .ToExo .ClapTag .saveme{
+    font-size: 1.92rem;
+  }
+  .Together .ToExo .Calcu{
+    margin-top: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Together .ToExo .Calcu .Ample{
+    font-weight: bold;
+    font-size: 1.92rem;
+font-family: var(--Fonts);
+  }
+  .Together .ToExo .Calcu .busys{
+padding: 0.96rem;
+color: #ffff;
+cursor: pointer;
+font-weight: bold;
+font-family: var(--Fonts);
+background-color: var(--addcart);
+color: #ffff;
+  }
+  .Together .ToExo .Calcu .busys span a{
+color: #ffff;
+text-decoration: none;
+  }
+
+
+  @media (max-width:550px) {
+
+    .similar-courses .ourCourses .contain-itemo0 .Addonme .clim0{
+      display: none;
+    }
+    .similar-courses .ourCourses .contain-itemo0 .Addonme{
+      border: 1px solid var(--halkaDark);
+    }
+    .similar-courses .ourCourses .contain-itemo0 .Addonme .datas-manager{
+      flex: 1;
+    }
+    .Together .ToExo .ClapTag .saveme{
+font-size: 1.5rem;
+    }
+    .Together .ToExo .ClapTag i{
+      font-size: 1.5rem;
+    }
+    .Together .ToExo .Addnow .Addthis .sld {
+      font-size: 1.4rem;
+    }
+    .know{
+      width: 100%;
+    }
+    .know span{
+      width: 100%;
+    }
+  }
+  .similar-courses .ourCourses .contain-itemo0 .Addonme .task{
+    border: 1px solid orange;
+  }
+  @media (max-width:1180px) {
+    .courseF,
+    .Descriptions,
+    .reviwes-veta,
+    .similar-courses,
+    .Together,
+    .Instructor,
+    .Instructor,
+    .StduentBack
+    .Revisearc,
+    .comments,
+    .idea0{
+        margin-left: 3rem;
+    }
+ }
+ 
+ @media (max-width:1080px) {
+     .courseF,
+     .Descriptions,
+     .reviwes-veta,
+     .similar-courses,
+     .Together,
+     .Instructor,
+     .Instructor,
+     .StduentBack
+     .Revisearc,
+     .comments,
+     .idea0{
+         width: 70%;
+         margin: 1.6rem auto;
+     }
+ 
+ 
+ 
+     .fixBar{
+         bottom: 1px;
+         height: 7rem;
+ 
+     }
+     .endbar{
+         display: none;
+     }
+     .crud{
+         margin: 1.6rem 12rem;
+         width: 65%;
+         
+     }
+     .detaisl-page .con-tap{
+         height: 85rem;
+     }
+     .detaisl-page .con-tap .imagemeon{
+         display: block;
+     }
+     .detaisl-page .con-tap .megha{
+         display: block;
+     }
+     .detaisl-page .con-tap{
+         margin: auto;
+     }
+    
+ }
+ @media (max-width:700px) {
+     .detaisl-page .con-tap{
+         width: 90%;
+     }
+   
+     .detaisl-page .con-tap .updates{
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+     }
+     .detaisl-page .con-tap .updates .tiom{
+         margin-left: 0;
+     }
+ }
+ @media (max-width:330px) {
+     .detaisl-page .con-tap .Ratings-pro{flex-direction: column;}
+     .detaisl-page .con-tap .imagemeon img{
+         width: 100%;
+     }
+     .topics-data{
+         padding-left: 0;
+     }
+     .topics-data .learn0{
+         font-size: 2rem;
+     }
+ }
+ @media (max-width:650px) {
+     .courseF,
+     .Descriptions,
+     .reviwes-veta,
+     .similar-courses,
+     .Together,
+     .Instructor,
+     .Instructor,
+     .StduentBack
+     .Revisearc,
+     .comments,
+     .idea0{
+         width: 90%;
+         margin: 1.6rem auto;
+     }
+ }

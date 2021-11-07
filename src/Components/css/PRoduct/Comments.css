@@ -1,0 +1,241 @@
+
+  .comments{
+    width: 70rem;
+    margin: 2.4rem 12rem;
+  }
+  .comments .Commentors{
+      display: flex;
+      padding-bottom: 0;
+      margin-top: 1.12rem;
+      justify-content: flex-start;
+      border-bottom: 1.6px solid var(--halkaDark);
+
+  }
+  .comments .Commentors .emojies{
+      flex: 0.13;
+  }
+  .comments .Commentors .emojies span img{
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+  }
+  .comments .Commentors .commenst-emoji{
+      flex: 0.8;
+  }
+  .comments .Commentors .commenst-emoji .commentname{
+font-weight: bold;
+font-family: var(--Fonts);
+font-size: 1.92rem;
+  }
+  .comments .Commentors .commenst-emoji .rok56{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .comments .Commentors .commenst-emoji .rok56 .cosl45{
+font-size: 0.87rem;
+color: var(--star);
+margin-right: 1.392rem;
+  }
+  .comments .Commentors .commenst-emoji  .myTitle{
+font-size: 1.44rem;
+  }
+  .comments .Commentors .commenst-emoji  .s5at{
+      font-size: 1.44rem;
+
+  }
+  .comments .Commentors .commenst-emoji .Rwos{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+  }
+  .comments .Commentors .commenst-emoji .Rwos .mega{
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 0.8rem;
+      margin-bottom: 0.8rem;
+      align-items: center;
+  }
+  .comments .Commentors .commenst-emoji .Rwos .mega  .chock{
+width: 4rem;
+text-align: center;
+display: flex;
+font-size: 2.08rem;
+justify-content: center;
+align-items: center;
+height: 4rem;
+margin: 0 0.8rem;
+border-radius: 50%;
+border: 1px solid var(--halkaDark);
+  }
+  .comments .Commentors .commenst-emoji .Rwos .jessica{
+      margin-left: 1.6rem;
+  }
+  .comments .Commentors .commenst-emoji .Rwos .jessica a{
+      color: #111;
+  }
+  /* buttn */
+  .comments .jaadugar{
+      margin-top: 1.59rem;
+      border: 0.1rem solid var(--halkaDark);
+      padding: 0.96rem;
+      font-family: var(--Fonts);
+      font-weight: bold;
+      font-size: 1.92rem;
+      cursor: pointer;
+      text-align: center;
+  }
+
+
+
+  /* more course by editor */
+  .idea0{
+      width: 70rem;
+      margin: 2.4rem 12rem;
+  }
+  .idea0 h2{
+      font-family: var(--Fonts);
+      font-weight: bold;
+      font-size: 2.48rem;
+  }
+  .idea0 h2 a{
+      text-decoration: none;
+  }
+  .idea0 .murio{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 0.48rem;
+      box-shadow: 0 0 0.1rem rgba(0,0,0,0.787);
+  }
+  .idea0 .Reporto0{
+      border: 0.1rem solid var(--halkaDark);
+      padding: 0.96rem;
+      font-size: 1.761rem;
+      margin-top: 2.56rem;
+      font-family: var(--Fonts);
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+  }
+@media (max-width:810px) {
+    #goku{
+        display: none;
+    }
+    #goku1,#goku2{
+        flex: 45%;
+    }
+}
+@media (max-width:392px) {
+    #goku1{
+        display: none;
+    }
+   #goku2{
+        flex: 45%;
+    }
+}@media (max-width:px) {
+    
+}
+@media (max-width:1180px) {
+    .courseF,
+    .Descriptions,
+    .reviwes-veta,
+    .similar-courses,
+    .Together,
+    .Instructor,
+    .Instructor,
+    .StduentBack
+    .Revisearc,
+    .comments,
+    .idea0{
+        margin-left: 3rem;
+    }
+ }
+ 
+ @media (max-width:1080px) {
+     .courseF,
+     .Descriptions,
+     .reviwes-veta,
+     .similar-courses,
+     .Together,
+     .Instructor,
+     .Instructor,
+     .StduentBack
+     .Revisearc,
+     .comments,
+     .idea0{
+         width: 70%;
+         margin: 1.6rem auto;
+     }
+ 
+ 
+ 
+     .fixBar{
+         bottom: 1px;
+         height: 7rem;
+ 
+     }
+     .endbar{
+         display: none;
+     }
+     .crud{
+         margin: 1.6rem 12rem;
+         width: 65%;
+         
+     }
+     .detaisl-page .con-tap{
+         height: 85rem;
+     }
+     .detaisl-page .con-tap .imagemeon{
+         display: block;
+     }
+     .detaisl-page .con-tap .megha{
+         display: block;
+     }
+     .detaisl-page .con-tap{
+         margin: auto;
+     }
+    
+ }
+ @media (max-width:700px) {
+     .detaisl-page .con-tap{
+         width: 90%;
+     }
+   
+     .detaisl-page .con-tap .updates{
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+     }
+     .detaisl-page .con-tap .updates .tiom{
+         margin-left: 0;
+     }
+ }
+ @media (max-width:330px) {
+     .detaisl-page .con-tap .Ratings-pro{flex-direction: column;}
+     .detaisl-page .con-tap .imagemeon img{
+         width: 100%;
+     }
+     .topics-data{
+         padding-left: 0;
+     }
+     .topics-data .learn0{
+         font-size: 2rem;
+     }
+ }
+ @media (max-width:650px) {
+     .courseF,
+     .Descriptions,
+     .reviwes-veta,
+     .similar-courses,
+     .Together,
+     .Instructor,
+     .Instructor,
+     .StduentBack
+     .Revisearc,
+     .comments,
+     .idea0{
+         width: 90%;
+         margin: 1.6rem auto;
+     }
+ }

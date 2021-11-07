@@ -1,0 +1,217 @@
+
+.menubar{
+    box-shadow: 0 0 1rem rgba(0,0,0,0.756);
+    width :100%
+}
+.menubar .data{
+    height: 7.84rem;
+    padding:0 1.6rem ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menubar .data #burger{
+    border: 0.2rem solid orange;
+    display: none;
+    font-size: 1.6rem;
+}
+
+.menubar .data  .category{
+    margin: 0 1.74rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.menubar .data  .category:hover{
+    color: var(--link);
+}
+.menubar .data .search{
+    flex: 0.5;
+    display: flex;
+    height: 4.9rem;
+    font-size: 1.6rem;
+
+    background-color: var(--category);
+    border: 0.1rem solid var(--lighDark);
+
+    justify-content: flex-start;
+    border-radius: 2.3rem;
+    align-items: center;
+}
+.menubar .data .menu-burger .img a img{
+    width: 9.1rem;
+    height: 3.4rem;
+}
+.menubar .data .search input{
+    flex: 0.9;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    outline: none;
+    font-size: 1.6rem;
+
+
+}
+.menubar .data .search .bar{
+    margin-left: 1.44rem;
+    margin-right: 0.83rem;
+}
+.menubar .data .business{
+    flex: 0.3;
+    font-size: 1.6rem;
+ 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.48rem;
+
+}
+.menubar .data .business #businessA a,
+.menubar .data .business #businessB a{
+text-decoration: none;
+color: #1c1d1f;
+font-size: 1.6rem;
+
+cursor: pointer;
+}
+.menubar .data .business #businessA a:hover,
+.menubar .data .business #businessB a:hover{
+    color: var(--link);
+}
+.menubar .data .cart{
+    cursor: pointer;
+    margin-left: 0.8rem;
+   font-size: 1.92rem;
+}
+.menubar .data .setup{
+    flex: 0.22;
+    margin-left: 0.48rem;
+    display: flex;
+    font-size: 1.92rem;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.menubar .data .setup #log,.menubar .data .setup #sign{
+    border: 0.1rem solid var(--lighDark);
+    opacity: 0.92;
+    font-weight: 600;
+
+    cursor: pointer;
+    padding: 0.64rem 1.12rem;
+}
+.menubar .data .setup #sign{
+    background-color: #1c1d1f;
+    color: #ffff;
+}
+.menubar .data .setup #log:hover{
+background-color: var(--category);
+}
+.menubar .data .setup #sign:hover{
+    opacity: 1;
+}
+.menubar .data .setup #globe{
+    padding: 0.64rem 0.672rem;
+    border: 0.1rem solid var(--lighDark);
+
+    cursor: pointer;
+}
+@media (max-width:12995px) {
+    .menubar .data .setup #log,.menubar .data .setup #sign{
+        padding: 0.8rem;
+    }
+}
+@media (max-width:1210px) {
+    .menubar .data .search{
+        flex: 0.45;
+    }
+    .menubar .data .setup{
+        flex: 0.28;
+    }
+}
+@media (max-width:1080px) {
+    .menubar .data .business #businessA {
+        display: none;
+    }
+    .menubar .data .search{
+        flex: 0.54;
+    }
+    .menubar .data .business{
+        flex: 0.19;
+    }
+    .menubar .data .setup{
+        flex: 0.31;
+    }
+}
+@media (max-width:1005px) {
+    .menubar .data .search{
+        flex: 0.5;
+    }
+    .menubar .data .setup{
+        flex: 0.32;
+    }
+    .menubar .data .business{
+        flex: 0.2;
+    }
+}
+@media (max-width:910px) {
+    .menubar .data .business {
+        display: none;
+    }
+    .menubar .data .search{
+        flex: 0.62;
+    }
+    .menubar .data .setup{
+        flex: 0.38;
+    }
+}
+@media (max-width:800px) {
+    .menubar .data .category{
+        display: none;
+    }
+    .menubar .data .search input{
+        display: none;
+    }
+    .menubar .data .search{
+        background-color: transparent;
+        flex: 0.03;
+        border: none;
+        outline: none;
+        border-radius: 0;
+    }
+    .menubar .data .setup{
+        display: none;
+    }
+    .menubar .data {
+        justify-content: space-between;
+        height: 6.4rem;
+    }
+    .menubar .data #burger{
+        display: block;
+        cursor: pointer;
+        font-size: 2.24rem;
+        border: none;
+    }
+    .menubar .data .menu-burger .img a img{
+        margin-left: 8rem;
+    }
+}
+@media (max-width:576px) {
+    .menubar .data .menu-burger .img a img{
+        width: 7.5rem;
+        margin-left: 6.4rem;
+    }
+}
+@media (max-width:270px) {
+    .menubar .data .menu-burger .img a img{
+        margin-left: 1.6rem;
+        width: 5.5rem;
+    }
+    .menubar .data #burger{
+        font-size: 1.6rem;
+    }
+    .menubar .data .search .bar{
+        font-size: 1.6rem;
+    }
+    .menubar .data .cart{
+        font-size: 1.6rem;
+    }
+}

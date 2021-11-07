@@ -1,0 +1,119 @@
+
+  .res-category{
+      width: 100%;
+      z-index: 11;
+      padding: 1.6rem 1.6rem;
+  }
+  .res-category h3{
+font-size: 2.5rem;
+font-family: var(--Fonts);
+  }
+  .res-category .category-owner{
+      width: 100%;
+      display: flex;
+    justify-content: flex-start;
+      align-items: center;  
+      padding: 1rem;
+      margin: 1rem;
+      flex-direction: column;
+    
+    
+    }
+    .res-category .category-owner .childs{
+        width: 100%;
+        flex: 1;
+height: 30px;
+margin-bottom: 2rem;
+display: flex;
+
+    }
+    .res-category .category-owner .childs    .childs-sons{
+flex: 0.25;
+margin: 0 1rem;
+
+    }
+    .res-category .category-owner .childs    .childs-sons .touch-img{
+        cursor: pointer;
+        margin: 0;
+        overflow: hidden;
+    }
+    .res-category .category-owner .childs    .childs-sons .touch-img img{
+        transition: all 0.9s linear;
+        width: 100%;
+
+    }
+    .res-category .category-owner .childs    .childs-sons .touch-img:hover img{
+        transform: scale(1.2);
+    }
+    .res-category .category-owner .childs    .childs-sons .child-design{
+font-size: 2.2rem;
+font-weight: bold;
+font-family: var(--Fonts);
+    }
+    .res-category .maker-category{
+        width: 100%;
+        width: 100%;
+        display: flex;
+      justify-content: flex-start;
+        padding: 1rem;
+        display: none;
+        flex-wrap: wrap;
+        margin: 1rem;
+    }
+    .res-category .maker-category .chicks{
+ border: 1px solid var(--halkaDark);
+ padding: 1rem;
+ margin: 1rem;
+ font-size: 1.7rem;border-radius: 12rem;
+    }
+    .res-category .maker-category .chicks a{
+        text-decoration: none;
+        color: #111;
+        font-weight: bold;
+font-family: var(--Fonts);
+    }
+    
+  
+    @media (max-width:710px) {
+        .res-category .category-owner .childs    .childs-sons:last-child{
+display: none;
+        }
+        .res-category .category-owner .childs    .childs-sons {
+        flex: 0.33;
+        }
+        .res-category .category-owner .childs    .childs-sons .child-design{
+     
+            margin: 0;
+                    }
+    }
+   
+    @media (max-width:604px) {
+        .res-category .category-owner .childs    .childs-sons .child-design{
+font-size: 1.9rem;
+        }
+        .res-category .category-owner{
+            display: none;
+        }
+        .res-category .maker-category{
+            display: flex;
+            margin: 0.7rem;
+        }
+        .res-category .maker-category .chicks{
+            margin: 0.6rem;
+        }
+    }
+    @media (max-width:490px) {
+        .res-category .maker-category .chicks{
+            font-size: 1.3rem;
+            margin: 0.2rem;
+
+        }
+    }
+    @media (max-width:390px) {
+        .res-category .maker-category .chicks{
+            font-size: 1rem;
+            margin: 0.2rem;
+            border-radius: 10rem;
+
+        }
+    }

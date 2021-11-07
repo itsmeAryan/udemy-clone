@@ -1,0 +1,61 @@
+.lamp{
+    position: absolute;
+    width: 0;cursor: pointer;
+    background-color: #111;
+    height: 110rem;
+    top: 0;
+    display: none;
+transition: all 0.8s linear;
+}
+.lamp .clod{
+    font-size: 3rem;
+    position: absolute;
+    top: 1rem;color: #fff;
+    left: 40%;
+    height: 100%;
+    width: 5rem;cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    border: 0.1rem solid orange;
+    border-radius: 50%;
+}
+.lamp .jaskas{
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    border-right: 0.6rem solid whitesmoke;
+}
+.lamp .jaskas .Done{
+padding: 1.5rem;
+font-size: 2.3rem;
+    background-color: #fff;
+    font-family: var(--Fonts);
+font-weight: bold;
+cursor: pointer;
+
+background-color: #111;
+text-align: center;
+background-color: #fff;
+box-shadow: 0 0 0.1rem rgba(0,0,0,0.765);
+}
+.lamp .jaskas .Code{
+    padding: 1.5rem;
+    background-color: #fff;
+    font-size: 2.3rem;
+    font-family: var(--Fonts);
+    font-weight: bold;
+    cursor: pointer;
+    
+    background-color: #111;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.765);
+}
+.lamp .jaskas .Done span{
+    width: 60%;
+    color: #fff;
+    background-color: #111;
+    padding: 0.7rem 7rem;
+}

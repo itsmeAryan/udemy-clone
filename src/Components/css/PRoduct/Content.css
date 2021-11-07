@@ -1,0 +1,209 @@
+
+
+  .courseF{
+    width: 70rem;
+    margin: 3.2rem 12rem;
+
+  }
+  .courseF h3{
+      font-weight: bold;
+      font-family: var(--Fonts);
+
+  }
+  .courseF .len-section{
+display: flex;
+padding: 1.6rem;
+justify-content: space-between;
+align-items: center;
+  }
+  .courseF .len-section p{
+      margin: 0;
+      font-family: var(--Fonts);
+  }
+  .courseF .len-section  a{
+      text-decoration: none;
+      color: var(--link);
+      font-family: var(--Fonts);
+
+  }
+
+  .courseF .car .martin{
+      text-align: center;
+      display: none;
+      transition: all 2s linear;
+  }
+  /* for show more */
+  .courseF .car .more{
+      text-align: center;
+      cursor: pointer;
+      padding: 1.04rem;
+      font-family: var(--Fonts);
+      font-size: 1.76rem;
+      margin-top: 1.12rem;
+      border: 0.1rem solid #111;
+      background-color: #ffff;
+  }
+  .courseF .car .more:hover{
+      opacity: 0.9;
+  }
+
+  .courseF .require{
+      margin: 3.68rem 0;
+  }
+  .courseF .require h1{
+      font-weight: bold;
+      font-family: var(--Fonts);
+      font-size: 2.56rem;
+  }
+  .courseF .trusted-datra{
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.765);
+    padding: 1.6rem 2.72rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+  }
+  .courseF .trusted-datra .trust-meat{
+      font-family: var(--Fonts);
+
+  }
+  .courseF .trusted-datra .trys{
+font-size: 1.761rem;
+margin-bottom: 1.6rem;
+  }
+  .courseF .trusted-datra  .imgino{
+display: flex; justify-content: flex-start;
+align-items: center;
+  }
+  .courseF .trusted-datra  .imgino img{
+      margin: 1.12rem;
+  }
+  .courseF .trusted-datra .hypo-data{
+      border: 1.6px solid #111;
+      width: 25%;cursor: pointer;
+      font-family: var(--Fonts);
+      text-align: center;
+      padding: 0.8rem 0;
+  }
+  .courseF .trusted-datra .hypo-data:hover{
+      background-color: var(--category);
+  }
+  @media (max-width:530px) {
+      #net{
+       display: none;   
+      }
+      .courseF .trusted-datra .hypo-data{
+          width: 50%;
+      }
+  }
+  @media (max-width:385px) {
+      #h5{
+          display: none;
+      }
+      .courseF .trusted-datra .hypo-data{
+        width: 80%;
+    }
+  }
+  @media (max-width:1180px) {
+    .courseF,
+    .Descriptions,
+    .reviwes-veta,
+    .similar-courses,
+    .Together,
+    .Instructor,
+    .Instructor,
+    .StduentBack
+    .Revisearc,
+    .comments,
+    .idea0{
+        margin-left: 3rem;
+    }
+ }
+ 
+ @media (max-width:1080px) {
+     .courseF,
+     .Descriptions,
+     .reviwes-veta,
+     .similar-courses,
+     .Together,
+     .Instructor,
+     .Instructor,
+     .StduentBack
+     .Revisearc,
+     .comments,
+     .idea0{
+         width: 70%;
+         margin: 1.6rem auto;
+     }
+ 
+ 
+ 
+     .fixBar{
+         bottom: 1px;
+         height: 7rem;
+ 
+     }
+     .endbar{
+         display: none;
+     }
+     .crud{
+         margin: 1.6rem 12rem;
+         width: 65%;
+         
+     }
+     .detaisl-page .con-tap{
+         height: 85rem;
+     }
+     .detaisl-page .con-tap .imagemeon{
+         display: block;
+     }
+     .detaisl-page .con-tap .megha{
+         display: block;
+     }
+     .detaisl-page .con-tap{
+         margin: auto;
+     }
+    
+ }
+ @media (max-width:700px) {
+     .detaisl-page .con-tap{
+         width: 90%;
+     }
+   
+     .detaisl-page .con-tap .updates{
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+     }
+     .detaisl-page .con-tap .updates .tiom{
+         margin-left: 0;
+     }
+ }
+ @media (max-width:330px) {
+     .detaisl-page .con-tap .Ratings-pro{flex-direction: column;}
+     .detaisl-page .con-tap .imagemeon img{
+         width: 100%;
+     }
+     .topics-data{
+         padding-left: 0;
+     }
+     .topics-data .learn0{
+         font-size: 2rem;
+     }
+ }
+ @media (max-width:650px) {
+     .courseF,
+     .Descriptions,
+     .reviwes-veta,
+     .similar-courses,
+     .Together,
+     .Instructor,
+     .Instructor,
+     .StduentBack
+     .Revisearc,
+     .comments,
+     .idea0{
+         width: 90%;
+         margin: 1.6rem auto;
+     }
+ }

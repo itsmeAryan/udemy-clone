@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --yellow:#ebeb98;
+  --lighDark:#3d3c0a;
+  --halkaDark:#1c1d1f;
+  --inpo: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  --haldark:#6a6f73;
+  --star:#e59819;
+  --rate:#b4690e;
+  --highrated:#f3ca8c;
+  --hot:#fcaea0;
+  --category:#f7f9fa;
+  --link:#5624d0;
+  --produclink:#cec0fc;
+  --addcart:#a435f0;
+  --alarm:#b32d0f;
+  --show:#5624d0;
+  --total:#1e6055;
+  --Fonts:  'Roboto Condensed', sans-serif;
+
+
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 62.5%;
+   font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #111;
+
+}
+
+
+
+
+
+@media (max-width: 575.98px) { 
+  html{
+    font-size: 37%;
+  }
+ }
+ @media (max-width: 450.98px) { 
+  html{
+    font-size: 33%;
+  }
+ }
+ @media (max-width: 330.98px) { 
+  html{
+    font-size: 27%;
+  }
+ }
+
+@media (max-width: 767.98px) { 
+  html{
+    font-size: 45%;
+  }
+ }
+
+@media (max-width: 991.98px) { 
+  html{
+    font-size: 55%;
+  }
+ }
+

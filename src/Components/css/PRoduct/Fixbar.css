@@ -1,0 +1,157 @@
+
+  .fixBar{
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 1111111;
+      padding: 0.96rem 4.8rem;
+      color: #ffff;
+background: #111;
+  }
+  .fixBar p{
+      margin: 0;
+      margin-bottom: 0.8rem;
+      font-size: 1.92rem;
+background: #111;
+
+      font-family: var(--Fonts);
+      font-weight: bold;
+background: #111;
+
+      color: #ffff;
+  }
+  .fixBar .tampo{
+      display: flex;
+background: #111;
+
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .fixBar .tampo .mono{
+      color: var(--star);
+background: #111;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .fixBar .tampo .mono i{
+      font-size: 1.449rem;
+background: #111;
+
+      margin-left: 0.483rem;
+  }
+  .fixBar .tampo .hybi a{
+      
+text-decoration: none;
+margin: 0 1.127rem;
+color: var(--produclink);
+  }
+  @media (max-width:1180px) {
+      .courseF,
+      .Descriptions,
+      .reviwes-veta,
+      .similar-courses,
+      .Together,
+      .Instructor,
+      .Instructor,
+      .StduentBack
+      .Revisearc,
+      .comments,
+      .idea0{
+          margin-left: 3rem;
+      }
+   }
+   
+   @media (max-width:1080px) {
+       .courseF,
+       .Descriptions,
+       .reviwes-veta,
+       .similar-courses,
+       .Together,
+       .Instructor,
+       .Instructor,
+       .StduentBack
+       .Revisearc,
+       .comments,
+       .idea0{
+           width: 70%;
+           margin: 1.6rem auto;
+       }
+   
+   
+   
+       .fixBar{
+           bottom: 1px;
+           height: 7rem;
+   
+       }
+       .endbar{
+           display: none;
+       }
+       .crud{
+           margin: 1.6rem 12rem;
+           width: 65%;
+           
+       }
+       .detaisl-page .con-tap{
+           height: 85rem;
+       }
+       .detaisl-page .con-tap .imagemeon{
+           display: block;
+       }
+       .detaisl-page .con-tap .megha{
+           display: block;
+       }
+       .detaisl-page .con-tap{
+           margin: auto;
+       }
+      
+   }
+   @media (max-width:700px) {
+       .detaisl-page .con-tap{
+           width: 90%;
+       }
+     
+       .detaisl-page .con-tap .updates{
+           flex-direction: column;
+           justify-content: flex-start;
+           align-items: flex-start;
+       }
+       .detaisl-page .con-tap .updates .tiom{
+           margin-left: 0;
+       }
+   }
+   @media (max-width:330px) {
+       .detaisl-page .con-tap .Ratings-pro{flex-direction: column;}
+       .detaisl-page .con-tap .imagemeon img{
+           width: 100%;
+       }
+       .topics-data{
+           padding-left: 0;
+       }
+       .topics-data .learn0{
+           font-size: 2rem;
+       }
+   }
+   @media (max-width:650px) {
+       .courseF,
+       .Descriptions,
+       .reviwes-veta,
+       .similar-courses,
+       .Together,
+       .Instructor,
+       .Instructor,
+       .StduentBack
+       .Revisearc,
+       .comments,
+       .idea0{
+           width: 90%;
+           margin: 1.6rem auto;
+       }
+   }
+   @media (max-width:540px) {
+      .fixBar .tampo{
+            display: none;
+      }
+   }

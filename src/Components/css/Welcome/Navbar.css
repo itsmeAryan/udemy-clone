@@ -1,0 +1,121 @@
+
+
+  .Upper{
+      padding: 2.72rem;
+      background-color: #111;
+      color: #ffff;
+      border-bottom: 0.1rem solid var(--haldark);
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      display: none;
+  }
+  .Upper h1{
+      font-size: 2rem;
+      font-weight: bold;
+  }
+  .Upper h1 a{
+      text-decoration: none;
+      color: #cec0fc;
+  }
+  .Upper .img-tag0{
+      flex:1;
+      display: flex;
+      margin-left: 4.8rem;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .below{
+      padding: 2.4rem 3.2rem ;
+      background-color: #111;
+  }
+  
+  .below .package .package1 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+  }
+  .below .package .package1 .am{
+      flex-wrap: wrap;
+      flex: 0.93;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .below .package .package1 .am .pack{
+      flex: 0.4;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin: 1.6rem;
+  }
+  .below .package .package1 .am .pack span a{
+      font-size: 1.7rem ;
+      text-decoration: none;
+      color: #ffff;
+      font-weight: bold;
+  }
+  .below .package .package1  .bye-world{
+      flex: 0.1;
+    
+color: #fff;
+font-weight: bold;
+display: flex;
+text-align: center;
+justify-content: flex-start;
+cursor: pointer;
+align-items: center;
+padding:1.12rem 1.6rem;
+border: 0.1rem solid var(--category);
+}
+.below .package .package1  .bye-world i{
+    font-size: 2.08rem;
+    color: #fff;
+font-weight: bold;
+}
+.below .package .package1  .bye-world span{
+    color: #fff;
+    font-weight: bold;
+    margin-left: 1.6rem;
+}
+.below .package .package1  .bye-world:hover{
+    opacity: 0.9;
+}
+.below .package  .pack2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10rem;
+}
+.below .package  .pack2 img{
+    width: 9.1rem;
+    height: 3.4rem;
+}
+.below .package  .pack2 span{
+    color: #fff;
+    font-weight: bold;
+}
+@media (max-width:600px) {
+    .below .package  .pack2 .ipman{
+        font-size: 1.3rem;
+    }
+    .below .package .package1  .bye-world i{
+        font-size: 1.6rem;
+    }
+    .below .package .package1 .am{
+        flex: 100%;
+        order: 2;
+    }
+    .below .package .package1 .am .pack span a{
+        font-size: 1.4rem;
+    }
+    .below .package .package1 .am .pack{
+        flex: 100%;
+        margin: 0;
+    }
+    .below .package  .pack2 img{
+        width: 20%;
+    }
+}

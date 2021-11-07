@@ -1,0 +1,159 @@
+.shop{
+    width: 100%;
+    height: 400px;
+    padding: 1.4rem;
+}
+.shop h3{
+    font-family: var(--Fonts);
+    font-size: 3rem;
+}
+.shop .shopme{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.shop .shopme .shopitem{
+flex: 75%;
+height: 30px;
+padding: 0.4rem;
+}
+.shop .shopme .shopitem .buy {
+    display: flex;
+ box-shadow: 0 0 0.2rem rgba(0,0,0,0.765);
+}
+
+.shop .shopme .shopitem .buy .amg{
+    flex: 0.25%;
+
+}
+.shop .shopme .shopitem .buy .amg img{
+   width: 12.1rem;
+
+   height: 7.4rem;
+   object-fit: cover;
+}
+.shop .shopme .shopitem .buy .lakhan{
+flex: 85%;
+margin-left: 0.5rem;
+justify-content: space-between;
+display: flex;
+}
+.shop .shopme .shopitem .buy .lakhan .ramu{
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: column;
+   margin: 0;
+
+}
+.shop .shopme .shopitem .buy .lakhan .ramu .ramu-title span{
+    margin: 0;
+
+font-family: var(--Fonts);
+
+}
+.shop .shopme .shopitem .buy .lakhan .ramu .ramu-uther{
+font-size: 1.4rem;
+font-family: var(--Fonts);
+
+}
+.shop .shopme .shopitem .buy .lakhan .ramu .ramu-seller .bestseller{
+font-family: var(--Fonts);
+background-color: var(--star);
+color: #111;
+}
+.shop .shopme .shopitem .buy .lakhan .ramu .ramu-seller .glass{
+margin-left: 0.4rem;
+color: var(--rate);
+}
+.shop .shopme .shopitem .buy .lakhan .ramu .ramu-seller .glass i{
+    font-size: 1.4rem;
+}
+.shop .shopme .shopitem .buy .lakhan .ramu .ramu-lectures span{
+font-size: 1.67rem;
+font-family: var(--Fonts);
+color: var(--total);
+}
+.shop .shopme .shopitem .buy .lakhan .kaka{
+margin-right: 0.3rem;
+display: flex;
+}
+.shop .shopme .shopitem .buy .lakhan .kaka .kaka-crud{
+    display: flex;
+    flex-direction: column;
+}
+.shop .shopme .shopitem .buy .lakhan .kaka .kaka-crud span a{
+    text-decoration: none;
+    color: var(--link);
+}
+.shop .shopme .shopitem .buy .lakhan .kaka .kak-price .paisa-babu span {
+font-family: var(--Fonts);
+font-size: 2.1rem;
+color: var(--addcart);
+}
+.shop .shopme .shopitem .buy .lakhan .kaka .kak-price .paisa-babu span i{
+    font-size: 1.8rem;
+}
+.shop .shopme .shoppaisa{
+    flex:25%;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.765);
+    padding: 0.50rem 1.4rem;
+}
+
+.shop .shopme .shoppaisa .credit .credit-total span{
+font-family: var(--Fonts);
+font-size: 1.7rem;
+}
+.shop .shopme .shoppaisa .credit .credit-paisa span{
+    font-family: var(--Fonts);
+    font-size: 2.7rem;
+}
+.shop .shopme .shoppaisa .credit  .cr-dics{
+display: flex;
+flex-direction: column;
+font-family: var(--Fonts);
+
+}
+.shop .shopme .shoppaisa .credit .cr-pay{
+background-color: var(--addcart);
+color: #ffff;
+font-family: var(--Fonts);
+font-size: 1.8rem;
+text-align: center;
+cursor: pointer;
+padding: 0.8rem;
+
+}
+.shop .shopme .shoppaisa .credit .promotions .mo{
+    font-family: var(--Fonts);
+
+}
+.shop .shopme .shoppaisa .credit .promotions  .promo-apply .A0{
+    font-family: var(--Fonts);
+    cursor: pointer; font-size: 1.9rem;
+}
+.shop .shopme .shoppaisa .credit .promotions  .promo-apply .B0{
+    font-family: var(--Fonts);
+    margin: 0 1rem;
+}
+.shop .shopme .shoppaisa .credit .promotions .promo-add input{
+width: 80%;
+border: none;padding-left: 0.3rem;
+font-family: var(--Fonts);
+outline: none;
+height: 3.3rem;
+
+}
+.shop .shopme .shoppaisa .credit .promotions .promo-add {
+    border: 1px solid var(--halkaDark);
+    display: flex;
+    justify-content: space-between;
+}
+.shop .shopme .shoppaisa .credit .promotions .promo-add span{
+height: 3.3rem;
+padding: 0.5rem;
+font-size: 1.7rem;
+cursor: pointer;
+color: #ffff;
+background-color: var(--addcart);
+}

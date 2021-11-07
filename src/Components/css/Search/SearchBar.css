@@ -1,0 +1,112 @@
+
+  .dataSearched{
+      width: 100%;
+      padding: 1.6rem 3.2rem;
+      margin-top: 3.84rem;
+      margin-left: 3.2rem;
+      position: relative;
+      height: 100%;
+      padding-left: 0;
+  }
+
+  /* not sure div */
+
+  .notSure{
+    padding: 1.6rem 3.2rem;
+    width: 90%;
+    margin-left: 3.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2.4rem;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.74564);
+
+
+  }
+  .notSure .oksure{
+font-size: 2.4rem;
+
+  }
+
+  .notSure .sureData{
+margin: 0 1.6rem;
+font-size: 1.76rem;
+font-family: var(--Fonts);
+  }
+
+  /* filters bro */
+  .ForAllDiv{
+      width: 96.5%;
+      margin-left: 3.2rem;
+      margin-top: 2.88rem;
+      /* border: 2px solid orange; */
+  }
+  .ForAllDiv .filter{
+      display: flex;
+
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .ForAllDiv .filter .okfill{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+border: 1px solid var(--halkaDark);
+cursor: pointer;
+font-family: var(--Fonts);
+margin-right: 1.6rem;
+    padding:2.16rem 0.8rem;
+  }
+  .ForAllDiv .filter .okDone{
+display: flex;
+justify-content: flex-start;
+border: 0.1rem solid var(--halkaDark);
+padding: 0.16rem;
+font-family: var(--Fonts);
+flex-direction: column;
+  }
+  .ForAllDiv .filter .okDone .choose89 select{
+height: 4rem;
+border: none;
+outline: none;
+  }
+
+  /* ChildBeta important for all div */
+  .ForAllDiv .ChildBeta{
+      height: 40rem;
+      /* border: 2px solid orange; */
+      margin-top: 3.2rem;
+      display: flex;
+      position: relative;
+  }
+  /* childs are youtube and facebook */
+  .ForAllDiv .ChildBeta .youtube{
+      position: relative;
+      /* border: 2px solid green; */
+      display: flex;
+    flex: 0.25;
+
+      transition: all 0.8s linear;
+      height: 90%;
+  }
+  /* .ForAllDiv .ChildBeta:hover .youtube{
+    flex: 0.25;
+display: flex;
+justify-content: flex-start;
+  } */
+  .ForAllDiv .ChildBeta .facebook{
+    flex: 1;
+    /* border: 2px solid green; */
+    height: 50%;
+}
+.ForAllDiv .ChildBeta .youtube .aryan{
+    position:absolute;
+    top: 1;
+    left: 1;
+    height: 10rem;
+    transition: all 0.8s linear;
+    border: 0.1rem solid var(--halkaDark);
+}
+.ForAllDiv .ChildBeta .youtube:hover .aryan{
+    width: 90%;
+}

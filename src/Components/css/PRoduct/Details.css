@@ -1,0 +1,415 @@
+
+  .detaisl-page {
+      border: 0.1rem solid #111;
+      width: 100%;
+      position: relative;
+      background-color: #111;
+      color: #ffff;
+  }
+  .detaisl-page .con-tap{
+      height: auto;
+      width: 70%;
+      margin: 2.4rem 12rem;
+  }
+  .detaisl-page .con-tap .pron{
+display: flex;
+
+justify-content: flex-start;
+align-items: center;
+word-spacing: 0.3rem;
+  }
+  .detaisl-page .con-tap .pron a{
+      text-align: center;
+word-spacing: 0.483rem;
+text-decoration: none;margin-right: 0.483rem;
+      color: var(--produclink);
+  }
+  .detaisl-page .con-tap .megha{
+      margin-top: 1rem;
+      display: none;
+      position: relative;
+  }
+  .detaisl-page .con-tap .megha .loks{
+font-size: 3rem;
+  }
+  .detaisl-page .con-tap .megha .goadd .sk{
+      text-align: center;
+      background-color: var(--link);
+      font-family: var(--Fonts);
+      font-weight: bold;
+padding: 1rem;
+font-size: 2rem;
+position: relative;
+width: 100%;
+  }
+  .detaisl-page .con-tap .apply{
+      text-align: center;
+  }
+  .detaisl-page .con-tap .bhav{
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--Fonts);
+      font-weight: bold;
+      font-size: 1.8rem;
+  }
+  .detaisl-page .con-tap .t0h7{
+      margin-top: 1rem;
+      text-align: center;
+  }
+  .detaisl-page .con-tap .excl {
+      margin-top: 1rem;
+      border: 2px dotted white;
+  }
+  .detaisl-page .con-tap .arvind{
+      padding: 1rem;
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.9rem;
+
+  }
+  .detaisl-page .con-tap .arvind .middlea a,
+  .detaisl-page .con-tap .josa a{
+      text-decoration: none;
+      color: #ffff;
+      font-family: var(--Fonts);
+      font-weight: bold;
+  }
+  .detaisl-page .con-tap .excl .tyb45 .je{
+    font-family: var(--Fonts);
+    font-weight: bold;
+  }
+  .detaisl-page .con-tap  .head-pro .tap-pro{
+font-family: var(--Fonts);
+font-weight: bold;
+font-size: 1.89rem;
+margin-top: 3.026rem;
+  }.detaisl-page .con-tap .imagemeon img{
+      width: 90%;
+      cursor: pointer;
+      position: relative;
+  }
+  .detaisl-page .con-tap .imagemeon{
+      cursor: pointer;
+      position: relative;
+      display:none ;
+  }
+  .detaisl-page .con-tap .imagemeon  .play {
+      position: absolute;
+      cursor: pointer;
+top: 39%;
+left: 30%;
+
+     
+  }
+  .detaisl-page .con-tap .imagemeon  .play i{
+      font-size: 5rem;
+      
+      color: #111;
+  }
+.detaisl-page .con-tap .clasic-pro .mega-pro{
+font-size: 1.8717rem;
+}
+.detaisl-page .con-tap .Ratings-pro{
+    display: flex;
+    justify-content: flex-start;
+}
+.detaisl-page .con-tap .Ratings-pro .rating-number-pro{
+color: var(--star);
+
+
+}
+
+.detaisl-page .con-tap .Ratings-pro .stars-pro {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+font-size: 0.96rem;
+color: var(--star);
+margin: 0 0.64rem;
+}
+
+.detaisl-page .con-tap .Ratings-pro a{
+    color: var(--produclink);
+    font-size: 1.449rem;
+}
+
+.detaisl-page .con-tap .Ratings-pro .users-pro{
+margin-left: 0.8rem;
+font-size: 1.483rem;
+}
+.detaisl-page .con-tap .pro-owner a{
+text-decoration: none;
+color: var(--produclink);
+margin-left: 0.48rem;
+}
+.detaisl-page .con-tap .updates{
+display: flex;
+margin-top: 0.96rem;
+justify-content: flex-start;
+align-items: center;
+}
+.detaisl-page .con-tap .updates .upto{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-right: 1.449rem;
+}
+.detaisl-page .con-tap .updates .upto .jk{
+text-align: center;
+font-size: 1.488rem;
+margin-right: 0.483rem;
+}
+.detaisl-page .con-tap .updates .lang{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.detaisl-page .con-tap .updates .lang .eng{
+    margin:0 0.8rem;
+}
+.detaisl-page .con-tap .updates .tiom{
+display: flex;
+margin-left: 1.6rem;
+justify-content: space-between;
+align-items: center;
+}
+.detaisl-page .con-tap .updates .tiom .morphin{
+    margin-left: 0.96rem;
+}
+.detaisl-page .con-tap .updates .tiom .morphin a{
+    color: var(--produclink);
+}
+
+/* topics */
+.topics-data{
+    width: 70rem;
+    margin: 1.6rem 12rem;
+    padding: 1.6rem 1.6rem;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.765);
+    margin-bottom: 0.96rem;
+}
+/* h1 */
+.topics-data  .learn0{
+    font-size: 2.72rem;
+    font-weight: bold;
+
+}
+.topics-data  .list-data{
+    margin: 1.6rem;
+    margin-left: 1.127rem;
+    width: 100%;
+    margin-right: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+.topics-data  .list-data .Aone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topics-data  .list-data .Aone .li-mi{
+    flex: 0.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2.88rem;
+    margin-bottom: 0.8rem;
+    
+}
+.topics-data  .list-data .Aone  .m{
+    margin-right: 0;
+}
+.topics-data  .list-data .Aone .li-mi i{
+    font-size: 1.6rem;
+    margin-right: 0.8rem;
+}
+.topics-data  .list-data .Aone .li-mi {
+    font-size: 1.44rem;
+    font-weight: 400;
+}
+
+.crud{
+    width: 70rem;
+    margin: 3.2rem 12rem;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 0 0 0.1rem rgba(0,0,0,0.765);
+}
+.crud  .divim{
+    width: 2.3rem;
+    height: 3.5rem;
+    overflow: hidden;
+    position: relative;
+
+}
+.crud  .divim img{
+    position: absolute;
+    top: -15px;
+    left: -10px;
+}
+.crud p{
+    display: flex;
+    font-size: 1.761rem;
+    font-weight: bold;
+    text-align: end;
+    justify-content: flex-end;
+    margin-left: 3.2rem;
+
+    align-items: center;
+}
+
+.crud p a{
+    margin: 0 0.96rem;
+    text-decoration: none;
+    color: var(--link);
+}
+@media (max-width:740px) {
+    .crud{
+        display: none;
+    }
+    .topics-data  .list-data{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .topics-data  .list-data .Aone{
+        flex-direction: column;
+    }
+    .topics-data  .list-data .Aone .li-mi{
+        margin: 0;
+    }
+    .topics-data  .list-data .Aone .m{
+        margin: 0;
+        display: none;
+    }
+    .topics-data  .list-data .Aone .li-mi i{
+        margin: 0;
+    }
+    .topics-data  .list-data .Aone .li-mi i{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .topics-data  .list-data .Aone .li-mi i{
+        margin: 0;
+    }
+    .topics-data{
+        margin: 1.6rem 0;
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width:1280px) {
+    .endbar{
+        right: 2%;
+    }
+}
+@media (max-width:1180px) {
+   .courseF,
+   .Descriptions,
+   .reviwes-veta,
+   .similar-courses,
+   .Together,
+   .Instructor,
+   .Instructor,
+   .StduentBack
+   .Revisearc,
+   .comments,
+   .idea0{
+       margin-left: 3rem;
+   }
+}
+
+@media (max-width:1080px) {
+    .courseF,
+    .Descriptions,
+    .reviwes-veta,
+    .similar-courses,
+    .Together,
+    .Instructor,
+    .Instructor,
+    .StduentBack
+    .Revisearc,
+    .comments,
+    .idea0{
+        width: 70%;
+        margin: 1.6rem auto;
+    }
+
+
+
+    .fixBar{
+        bottom: 1px;
+        height: 7rem;
+
+    }
+    .endbar{
+        display: none;
+    }
+    .crud{
+        margin: 1.6rem 12rem;
+        width: 65%;
+        
+    }
+    .detaisl-page .con-tap{
+        height: 85rem;
+    }
+    .detaisl-page .con-tap .imagemeon{
+        display: block;
+    }
+    .detaisl-page .con-tap .megha{
+        display: block;
+    }
+    .detaisl-page .con-tap{
+        margin: auto;
+    }
+   
+}
+@media (max-width:700px) {
+    .detaisl-page .con-tap{
+        width: 90%;
+    }
+  
+    .detaisl-page .con-tap .updates{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .detaisl-page .con-tap .updates .tiom{
+        margin-left: 0;
+    }
+}
+@media (max-width:330px) {
+    .detaisl-page .con-tap .Ratings-pro{flex-direction: column;}
+    .detaisl-page .con-tap .imagemeon img{
+        width: 100%;
+    }
+    .topics-data{
+        padding-left: 0;
+    }
+    .topics-data .learn0{
+        font-size: 2rem;
+    }
+}
+@media (max-width:650px) {
+    .courseF,
+    .Descriptions,
+    .reviwes-veta,
+    .similar-courses,
+    .Together,
+    .Instructor,
+    .Instructor,
+    .StduentBack
+    .Revisearc,
+    .comments,
+    .idea0{
+        width: 90%;
+        margin: 1.6rem auto;
+    }
+}

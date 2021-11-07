@@ -1,0 +1,82 @@
+
+
+.parent{
+ flex: 0.30;
+    width: 100%;
+    margin: 0.32rem;
+    cursor: pointer;
+    height: 100%;
+    
+}
+.parent .first-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.parent .first-child .img-tag{
+border: 1px solid var(--lighDark);    
+}
+.parent .first-child .img-tag img{
+    object-fit: contain;
+    width: 100%;
+}
+.parent .first-child .heading .heading-data{
+    font-weight: bold;
+    margin-top: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+font-size: 1.6rem;  
+height: 4.1rem; 
+
+}
+.parent .first-child .owner .owner-name{
+    font-size: 1.6rem;
+}
+.parent .first-child .Ratings{
+    display: flex;
+    justify-content: flex-start;
+}
+.parent .first-child .Ratings .rating-number {
+    color: var(--rate);
+    font-weight: bold;
+    font-size: 1.76rem;
+}
+.parent .first-child .Ratings .stars i{
+font-size: 1.44rem;
+color: var(--star);
+}
+.parent .first-child .Ratings .stars {
+    margin: 0 0.8rem;
+}
+.parent .first-child .Ratings{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.parent .first-child .Price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.parent .first-child .Price .real-price{
+    font-weight: bold;
+    font-size: 2.08rem;
+}
+.parent .first-child .Price .fake-price{
+    font-size: 1.76rem;margin: 0 1.6rem;
+}
+.parent .first-child .seller{
+    display: flex;
+    margin-top: 0.8rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.parent .first-child .seller .best{
+    padding: 0.16rem 0.32rem;
+    font-size: 1.44rem;
+    background-color: var(--yellow);
+
+}

@@ -1,0 +1,332 @@
+
+  .Instructor{
+    width: 70rem;
+    margin: 2.4rem 12rem;
+  }
+  .Instructor .cap-cho{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  .Instructor .cap-cho h3{
+font-weight: bold;
+font-family: var(--Fonts);
+  }
+  .Instructor .cap-cho span a{
+      color: var(--link);
+      font-weight: bold;
+      font-size: 1.92rem;
+font-family: var(--Fonts)
+  }
+  .Instructor .cap-cho .sidk{
+font-size: 1.761rem;
+  }
+  .Instructor .cap-cho .insorter{
+      display: flex;
+      margin-top: 0.64rem;
+      align-items: center;
+      justify-content: flex-start;
+  }
+  .Instructor .cap-cho .insorter .av img{
+      
+    width: 10.5rem;
+    height: 10.5rem;
+    border-radius: 50%;
+
+  }
+  .Instructor .cap-cho .insorter .avtdsd .manage .strings{
+      display: flex;
+      margin-left: 1.6rem;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 1.6rem
+
+  }
+  .Instructor .cap-cho .insorter .avtdsd .manage .strings .solr{
+      font-size: 1.42rem;
+      margin-right: 1.28rem;
+  }
+  .Instructor .cap-cho .insorter .avtdsd .manage .strings .Literal{
+      font-family: var(--Fonts);
+      font-weight: bold;
+      margin-left: 0.483rem;
+  }
+  .Instructor .cap-cho .insorter .avtdsd .manage .strings .p{
+margin-left: 0.944rem;
+  }
+  .Instructor .cap-cho .insorter .avtdsd .manage .strings .r{
+      margin-left: 0.8rem;
+  }
+  .Instructor .cap-cho  .md{
+      padding: 1.127rem;
+      text-align: start;
+  }
+  .Instructor #jam{
+      color: var(--link);
+      font-family: var(--Fonts);
+      cursor: pointer;
+  }
+  .Instructor #jam i{
+      transition: all 0.9s linear
+
+  }
+  .Instructor #jam #tim{
+transform: rotate(180deg);
+  }
+  /* student feedback */
+  .StduentBack{
+      margin-top: 1.6rem;
+    width: 70rem;
+    margin: 3.04rem 12rem;
+  }
+  .StduentBack h3{
+    font-family: var(--Fonts);
+    font-size: 2.4rem;
+  }
+  .StduentBack  .feedgain{
+display: flex;
+justify-content: flex-start;
+
+  }
+  .StduentBack  .feedgain .rangers {
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+align-items: center;
+  }
+  .StduentBack  .feedgain .rangers .numb098 {
+font-size: 5.6rem;
+padding: 0;
+font-weight: bold;
+color: var(--star);
+margin-bottom: 0;
+  }
+  .StduentBack  .feedgain .rangers .mackMe{
+    color: var(--star);
+
+  }
+  .StduentBack  .feedgain .rangers .soudn{
+    color: var(--star);
+    font-weight: bold;
+
+  }
+  .StduentBack .feedgain .bars-manu{
+    flex: 0.999;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .StduentBack .feedgain .bars-manu .sun{
+    margin: 0.8rem;
+  }
+  .StduentBack .feedgain .percentMenu{
+    display: flex;
+    margin: 0.8rem;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .StduentBack .feedgain .percentMenu .hampers{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .StduentBack .feedgain .percentMenu .hampers .divya{
+    color: var(--star);
+    font-size: 1.44rem;
+    margin-right: 0.64rem;
+  }
+
+  /* review serach bar */
+  .Revisearc{
+    width: 70rem;
+    margin: 2.4rem 12rem;
+  }
+  .Revisearc h3{
+    font-weight: bold;
+    font-family: var(--Fonts);
+  }
+  .Revisearc .handleSearch{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Revisearc .handleSearch .birla{
+  flex: 0.7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+margin-right: 1.6rem;
+  border: 0.1rem solid var(--halkaDark);
+
+  }
+  .Revisearc .handleSearch .birla input{
+    margin: 0 0.8rem;
+    flex: 0.97;
+    margin-right: 0;
+    border: none;
+    font-size: 1.92rem;
+    font-family: var(--Fonts);
+    outline: none;
+    height: 4.5rem;
+  }
+  .Revisearc .handleSearch .birla .searchbar00{
+    flex: 0.08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.92rem;
+    background-color: #111;
+    color: #ffff;
+    height: 4.5rem;
+  }
+  .Revisearc .handleSearch .ambani{
+    border: 0.2rem solid var(--halkaDark);
+    flex: 0.3;
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .Revisearc .handleSearch .ambani select{
+    flex: 1;
+    height: 4.1rem;
+    outline: none;
+    border: none;
+
+  }
+  @media (max-width:476px) {
+    .StduentBack .feedgain .bars-manu{
+      display: none;
+    }
+  }
+  @media (max-width:1180px) {
+    .Instructor,
+    .StduentBack,
+    .Revisearc{
+      margin-left: 3rem;
+    }
+  }
+  @media (max-width:1080px) {
+    .Instructor,
+    .StduentBack,
+    .Revisearc{
+      width: 70%;
+      border: 1px solid orange;
+      margin: 1.6rem auto;
+    }
+  }
+  @media (max-width:300px) {
+    .Revisearc .handleSearch .birla{
+      margin-right: 1rem;
+    }
+  }
+  @media (max-width:650px) {
+    .Instructor,
+    .StduentBack,
+    .Revisearc{
+      width: 90%;
+      margin: 1.6rem auto;
+    }
+  }
+  @media (max-width:1180px) {
+    .courseF,
+    .Descriptions,
+    .reviwes-veta,
+    .similar-courses,
+    .Together,
+    .Instructor,
+    .Instructor,
+    .StduentBack
+    .Revisearc,
+    .comments,
+    .idea0{
+        margin-left: 3rem;
+    }
+ }
+ 
+ @media (max-width:1080px) {
+     .courseF,
+     .Descriptions,
+     .reviwes-veta,
+     .similar-courses,
+     .Together,
+     .Instructor,
+     .Instructor,
+     .StduentBack
+     .Revisearc,
+     .comments,
+     .idea0{
+         width: 70%;
+         margin: 1.6rem auto;
+     }
+ 
+ 
+ 
+     .fixBar{
+         bottom: 1px;
+         height: 7rem;
+ 
+     }
+     .endbar{
+         display: none;
+     }
+     .crud{
+         margin: 1.6rem 12rem;
+         width: 65%;
+         
+     }
+     .detaisl-page .con-tap{
+         height: 85rem;
+     }
+     .detaisl-page .con-tap .imagemeon{
+         display: block;
+     }
+     .detaisl-page .con-tap .megha{
+         display: block;
+     }
+     .detaisl-page .con-tap{
+         margin: auto;
+     }
+    
+ }
+ @media (max-width:700px) {
+     .detaisl-page .con-tap{
+         width: 90%;
+     }
+   
+     .detaisl-page .con-tap .updates{
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: flex-start;
+     }
+     .detaisl-page .con-tap .updates .tiom{
+         margin-left: 0;
+     }
+ }
+ @media (max-width:330px) {
+     .detaisl-page .con-tap .Ratings-pro{flex-direction: column;}
+     .detaisl-page .con-tap .imagemeon img{
+         width: 100%;
+     }
+     .topics-data{
+         padding-left: 0;
+     }
+     .topics-data .learn0{
+         font-size: 2rem;
+     }
+ }
+ @media (max-width:650px) {
+     .courseF,
+     .Descriptions,
+     .reviwes-veta,
+     .similar-courses,
+     .Together,
+     .Instructor,
+     .Instructor,
+     .StduentBack
+     .Revisearc,
+     .comments,
+     .idea0{
+         width: 90%;
+         margin: 1.6rem auto;
+     }
+ }
