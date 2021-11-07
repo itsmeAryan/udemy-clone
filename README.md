@@ -6,6 +6,7 @@ This is a short udemy project react  with the help of react js.you can modify th
 ![Screenshot (30)](https://user-images.githubusercontent.com/85377449/140648167-599fe683-8342-42ae-a7fb-13aa670d8373.png)
 
 ![Screenshot (59)](https://user-images.githubusercontent.com/85377449/140648191-613cd642-c396-4eb4-8aa0-c4241ea223ef.png)
+![Screenshot (60)](https://user-images.githubusercontent.com/85377449/140648282-7c626c44-ba3c-417d-8cfa-3063f2379e0c.png)
 ![Screenshot (60)](https://user-images.githubusercontent.com/85377449/140648195-bc275ec3-db85-434a-9469-a707f44e286a
 ![Screenshot (61)](https://user-images.githubusercontent.com/85377449/140648201-77835527-c1d7-4f1e-957d-b51df212021a.png)
 .png)
